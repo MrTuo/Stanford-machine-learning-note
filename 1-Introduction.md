@@ -14,5 +14,5 @@
 - 梯度下降
 	- 在梯度下降中，所有参数需要同步更新，否则将导致错误结果。
 	- 不同的初始值可能导致求得不同的局部最优解，如下图所示，在两个不同的起点得到不同局部最优解。
-	![梯度下降，两个不同的起点得到不同局部最优解](https://github.com/MrTuo/Stanford-machine-learning-note/blob/master/picture/%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E9%95%BF.PNG)
+	![梯度下降，两个不同的起点得到不同局部最优解](https://github.com/MrTuo/Stanford-machine-learning-note/blob/master/picture/%E4%B8%8B%E9%99%8D%E8%B7%AF%E5%BE%84%E9%95%BF.PNG?raw=true)
 	- 在线性回归中的平方差代价函数总是一个凸函数，因此采用梯度下降的到的就是全局最优解
